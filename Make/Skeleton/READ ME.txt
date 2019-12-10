@@ -1,0 +1,68 @@
+Hello, and thank you for trying out Signalizer! Any feedback is welcome.
+
+1. Please read and agree to all licenses found in /licenses/ before using and/or redistributing the program (the least permissive license is GPL v3).
+
+2. Signalizer is open source and completely free to use. It may be redistributed and altered according to its license, GPL v3. The program is licensed under GPL v3. The source code repository is found here: https://bitbucket.org/Mayae/signalizer
+The source code of the complimentary library cpl is found here: https://bitbucket.org/Mayae/cpl
+
+3a. This software additionally uses the following software:
+
+	JUCE by Roli as the graphic- and audio foundation, GPL v3 licensed.
+	GNU Octave for some DSP operations, GPL v3 licensed.
+	ReaderWriterQueue, a C++ generic lock-free queue structure by Cameron Desrochers, BSD alike licensed.
+	DustFFT by SignalDust (Teemu Voipio), custom permissive license.
+
+3b. Additionally, graphical resources from the following packages are includes in this package:
+
+	Snowflakes Free, CC BY 3.0, Timothy Miller
+	GlyphPack by Design Revision, free
+	Slthytove's Gears, no apparant license
+	Google Icons 2016, CC BY 4.0
+	Ionicons, MIT
+	An icon made by Umar Irshad, "DashBoard", free
+
+	See the file called 'map.txt'
+	
+
+Note: All licenses can be found and examined in the /licenses/ folder.
+
+4. There is no manual, only tool-tips.
+
+5. Signalizer and cpl is written by Janus Lynggard Thorborg (hereby 'author') in the period of 2012 .. to now. All content, unless otherwise noted, are copyrighted to the author.
+
+6. Signalizer has a homepage: http://jthorborg.com/index.html?ipage=signalizer
+
+7. Contact details for any inquires: http://jthorborg.com/index.html?ipage=contact
+
+8. Hotkeys/UI handling that is not explained anywhere
+
+	Views allow you to 'drag' them with the mouse, as well as 'scroll' them with the
+	mouse wheel. What this exactly means depends on the view. Additionally, double-clicking 
+	the view will reset its bounds to some default size. Some views also allow alternate
+	dragging styles if you hold down shift or control. Rightclicking anywhere will do the opposite 
+	of the current global freeze mode, ie. if the view is frozen, it will be thawed while you rightclick.
+
+
+	For knobs, they obey being more precise if you hold down control while dragging them.
+	Many controls support 'editor spaces' which allows typing of precise values, or design them
+	(like colours). This functionality is accessed through double-clicking the control.
+	Esc will dismiss active modal boxes, full screen modes and so on. Tab will move to the
+	next input control. Context menus are available where you would expect them.
+
+FAQ:
+
+Q: Framerate appears slow, even though diagnostics reports a very stable measure, while using vertical sync.
+A: Especially on OS X, weird stuff can happen with the frame scheduling and syncing, if the window is not in full screen and focused. Try altering the "swap interval" in the main settings to 2.
+
+Q: The program crashed.
+A: Please, if you can, send a copy of the generated "Signalizer exceptions.log" (if any) and a description of the circumstances around the crash to me (see contact details above (7)). For OS X, the generated log is inside the bundle (Signalizer/Contents/Resources/). If you get the chance, please attach the operating-system generated fault description.
+
+Q: I got some nice code changes.
+A: Make a pull request - or contact me.
+
+Q: I got a feature request.
+A: Contact me (7).
+
+Q: I'm getting errors when i load a preset.
+A: The preset is probably from an older version. Perhaps send the error to me.
+
